@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CAC22ABB2B9A4F2000C5BEF2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC22ABA2B9A4F2000C5BEF2 /* CheckoutView.swift */; };
 		CAF305F92B99B7060086BC5C /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF305F82B99B7060086BC5C /* CupcakeCornerApp.swift */; };
 		CAF305FB2B99B7060086BC5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF305FA2B99B7060086BC5C /* ContentView.swift */; };
 		CAF305FD2B99B7090086BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF305FC2B99B7090086BC5C /* Assets.xcassets */; };
 		CAF306002B99B7090086BC5C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF305FF2B99B7090086BC5C /* Preview Assets.xcassets */; };
+		CAF306072B99C1050086BC5C /* ImageViewURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF306062B99C1050086BC5C /* ImageViewURL.swift */; };
+		CAF306092B99C6590086BC5C /* ValidatingAndDisablingForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF306082B99C6590086BC5C /* ValidatingAndDisablingForms.swift */; };
+		CAF3060B2B99C8E40086BC5C /* AddingCodableConformanceToAnObservableClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3060A2B99C8E40086BC5C /* AddingCodableConformanceToAnObservableClass.swift */; };
+		CAF3060D2B99CB610086BC5C /* AddingHapticEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3060C2B99CB610086BC5C /* AddingHapticEffects.swift */; };
+		CAF3060F2B99D1540086BC5C /* DataMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF3060E2B99D1540086BC5C /* DataMusic.swift */; };
+		CAF306112B99DAD30086BC5C /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF306102B99DAD30086BC5C /* Order.swift */; };
+		CAF306132B99E01A0086BC5C /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF306122B99E01A0086BC5C /* AddressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CAC22ABA2B9A4F2000C5BEF2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		CAF305F52B99B7060086BC5C /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF305F82B99B7060086BC5C /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		CAF305FA2B99B7060086BC5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CAF305FC2B99B7090086BC5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAF305FF2B99B7090086BC5C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CAF306062B99C1050086BC5C /* ImageViewURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewURL.swift; sourceTree = "<group>"; };
+		CAF306082B99C6590086BC5C /* ValidatingAndDisablingForms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidatingAndDisablingForms.swift; sourceTree = "<group>"; };
+		CAF3060A2B99C8E40086BC5C /* AddingCodableConformanceToAnObservableClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingCodableConformanceToAnObservableClass.swift; sourceTree = "<group>"; };
+		CAF3060C2B99CB610086BC5C /* AddingHapticEffects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingHapticEffects.swift; sourceTree = "<group>"; };
+		CAF3060E2B99D1540086BC5C /* DataMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataMusic.swift; sourceTree = "<group>"; };
+		CAF306102B99DAD30086BC5C /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		CAF306122B99E01A0086BC5C /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CAC22ABC2B9BC70500C5BEF2 /* HomeWork */ = {
+			isa = PBXGroup;
+			children = (
+				CAF3060E2B99D1540086BC5C /* DataMusic.swift */,
+				CAF306062B99C1050086BC5C /* ImageViewURL.swift */,
+				CAF306082B99C6590086BC5C /* ValidatingAndDisablingForms.swift */,
+				CAF3060A2B99C8E40086BC5C /* AddingCodableConformanceToAnObservableClass.swift */,
+				CAF3060C2B99CB610086BC5C /* AddingHapticEffects.swift */,
+			);
+			path = HomeWork;
+			sourceTree = "<group>";
+		};
 		CAF305EC2B99B7060086BC5C = {
 			isa = PBXGroup;
 			children = (
@@ -53,8 +81,12 @@
 			children = (
 				CAF305F82B99B7060086BC5C /* CupcakeCornerApp.swift */,
 				CAF305FA2B99B7060086BC5C /* ContentView.swift */,
+				CAF306102B99DAD30086BC5C /* Order.swift */,
+				CAF306122B99E01A0086BC5C /* AddressView.swift */,
+				CAC22ABA2B9A4F2000C5BEF2 /* CheckoutView.swift */,
 				CAF305FC2B99B7090086BC5C /* Assets.xcassets */,
 				CAF305FE2B99B7090086BC5C /* Preview Content */,
+				CAC22ABC2B9BC70500C5BEF2 /* HomeWork */,
 			);
 			path = CupcakeCorner;
 			sourceTree = "<group>";
@@ -137,7 +169,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAF3060B2B99C8E40086BC5C /* AddingCodableConformanceToAnObservableClass.swift in Sources */,
+				CAF306072B99C1050086BC5C /* ImageViewURL.swift in Sources */,
+				CAC22ABB2B9A4F2000C5BEF2 /* CheckoutView.swift in Sources */,
+				CAF306112B99DAD30086BC5C /* Order.swift in Sources */,
+				CAF3060D2B99CB610086BC5C /* AddingHapticEffects.swift in Sources */,
 				CAF305FB2B99B7060086BC5C /* ContentView.swift in Sources */,
+				CAF306132B99E01A0086BC5C /* AddressView.swift in Sources */,
+				CAF3060F2B99D1540086BC5C /* DataMusic.swift in Sources */,
+				CAF306092B99C6590086BC5C /* ValidatingAndDisablingForms.swift in Sources */,
 				CAF305F92B99B7060086BC5C /* CupcakeCornerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
