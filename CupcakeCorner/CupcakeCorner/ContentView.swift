@@ -19,7 +19,7 @@ struct ContentView: View {
                             Text(Order.types[$0])
                         }
                     }
-                    .pickerStyle(.navigationLink)
+                    .pickerStyle(.menu)
                     Spacer()
                     Stepper("Number of cakes  \(order.quantity)", value: $order.quantity, in: 3 ... 20)
                 }
@@ -30,12 +30,18 @@ struct ContentView: View {
                         Toggle("Add extra sprinkles ?", isOn: $order.addSprinkles)
                     }
                 }
-                Section("Delivery details"){
-                    AddressView(order: order)
+                Section {
+                    NavigationLink("Delivery details") {
+                        AddressView(order: Order())
+                    }
                 }
             }
             .navigationTitle("Cupcake Corner")
         }
+        Image("image")
+            .resizable()
+            .ignoresSafeArea()
+            .scaledToFit()
     }
 }
 
