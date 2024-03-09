@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CAC22ABB2B9A4F2000C5BEF2 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC22ABA2B9A4F2000C5BEF2 /* CheckoutView.swift */; };
-		CAC22ABF2B9CD94600C5BEF2 /* Запись экрана 2024-03-09 в 20.46.17.gif in Resources */ = {isa = PBXBuildFile; fileRef = CAC22ABE2B9CD94600C5BEF2 /* Запись экрана 2024-03-09 в 20.46.17.gif */; };
+		CAC22ABF2B9CD94600C5BEF2 /* gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = CAC22ABE2B9CD94600C5BEF2 /* gif.gif */; };
 		CAF305F92B99B7060086BC5C /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF305F82B99B7060086BC5C /* CupcakeCornerApp.swift */; };
 		CAF305FB2B99B7060086BC5C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF305FA2B99B7060086BC5C /* ContentView.swift */; };
 		CAF305FD2B99B7090086BC5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAF305FC2B99B7090086BC5C /* Assets.xcassets */; };
@@ -24,7 +24,7 @@
 
 /* Begin PBXFileReference section */
 		CAC22ABA2B9A4F2000C5BEF2 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		CAC22ABE2B9CD94600C5BEF2 /* Запись экрана 2024-03-09 в 20.46.17.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Запись экрана 2024-03-09 в 20.46.17.gif"; sourceTree = "<group>"; };
+		CAC22ABE2B9CD94600C5BEF2 /* gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gif.gif; sourceTree = "<group>"; };
 		CAF305F52B99B7060086BC5C /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAF305F82B99B7060086BC5C /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
 		CAF305FA2B99B7060086BC5C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		CAC22ABD2B9CD92C00C5BEF2 /* Resurs */ = {
 			isa = PBXGroup;
 			children = (
-				CAC22ABE2B9CD94600C5BEF2 /* Запись экрана 2024-03-09 в 20.46.17.gif */,
+				CAC22ABE2B9CD94600C5BEF2 /* gif.gif */,
 				CAF305FC2B99B7090086BC5C /* Assets.xcassets */,
 			);
 			path = Resurs;
@@ -170,7 +170,7 @@
 			files = (
 				CAF306002B99B7090086BC5C /* Preview Assets.xcassets in Resources */,
 				CAF305FD2B99B7090086BC5C /* Assets.xcassets in Resources */,
-				CAC22ABF2B9CD94600C5BEF2 /* Запись экрана 2024-03-09 в 20.46.17.gif in Resources */,
+				CAC22ABF2B9CD94600C5BEF2 /* gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
