@@ -10,6 +10,7 @@ import SwiftUI
 struct CheckoutView: View {
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
+    @Environment(\.dismiss) var dismiss
     
     var order: Order
 
@@ -45,6 +46,16 @@ struct CheckoutView: View {
         .navigationBarTitleDisplayMode(.inline)
         // если нечего прокручивать то не будет это делать
         .scrollBounceBehavior(.basedOnSize)
+        .navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Image(systemName: "chevron.left")
+                })
+            }
+        }
     }
 
     func placeOrder() async {

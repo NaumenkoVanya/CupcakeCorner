@@ -38,6 +38,7 @@ struct ContentView: View {
             }
             .navigationTitle("Cupcake Corner")
         }
+        
         Image("image")
             .resizable()
             .ignoresSafeArea()
