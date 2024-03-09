@@ -1,5 +1,5 @@
 # CupcakeCorner
-![Альтернативный текст](CupcakeCorner/CupcakeCorner/Resurs/Запись экрана 2024-03-09 в 20.46.17.gif)
+![Альтернативный текст](CupcakeCorner/CupcakeCorner/Resurs/20.46.17.gif)
 ### В разработке участвовали:
 <p align="left"> 
 <a href="https://github.com/dsm5e">
