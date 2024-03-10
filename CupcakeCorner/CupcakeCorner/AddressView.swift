@@ -9,6 +9,8 @@ import SwiftUI
 
 struct AddressView: View {
     @Bindable var order: Order
+    @Environment(\.dismiss) var dismiss
+
     var body: some View {
         Form {
             Section {
@@ -26,6 +28,16 @@ struct AddressView: View {
         }
         .navigationTitle("Delivery details")
         .navigationBarTitleDisplayMode(.inline)
+        .navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Image(systemName: "chevron.left")
+                })
+            }
+        }
     }
 }
 

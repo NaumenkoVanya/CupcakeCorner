@@ -10,7 +10,9 @@ import SwiftUI
 struct CheckoutView: View {
     @State private var confirmationMessage = ""
     @State private var showingConfirmation = false
-    
+    @State private var showingAlert = false
+    @Environment(\.dismiss) var dismiss
+
     var order: Order
 
     var body: some View {
@@ -34,17 +36,30 @@ struct CheckoutView: View {
                     }
                 }
                 .padding()
+                .alert(isPresented: $showingAlert) {
+                    Alert(title: Text("Error"), message: Text("Failed to place order. Please try again later."), dismissButton: .default(Text("OK")))
+                }
             }
         }
         .navigationTitle("Check out")
         .alert("Thank you!", isPresented: $showingConfirmation) {
-            Button("OK") { }
+            Button("OK") {}
         } message: {
             Text(confirmationMessage)
         }
         .navigationBarTitleDisplayMode(.inline)
         // если нечего прокручивать то не будет это делать
         .scrollBounceBehavior(.basedOnSize)
+        .navigationBarBackButtonHidden()
+        .toolbar {
+            ToolbarItem(placement: .topBarLeading) {
+                Button(action: {
+                    dismiss()
+                }, label: {
+                    Image(systemName: "chevron.left")
+                })
+            }
+        }
     }
 
     func placeOrder() async {
@@ -63,6 +78,7 @@ struct CheckoutView: View {
             showingConfirmation = true
         } catch {
             print("Checkout failed: \(error.localizedDescription)")
+            showingAlert = true
         }
     }
 }
